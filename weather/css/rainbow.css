@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background: url("images/rain-5115710.png");
+    height: auto;
+}
+.th{
+    color: aliceblue;
+}
+#table_length > label > select{
+    color: aliceblue;
+}
+#table_length > label{
+    color: aliceblue;
+}
+#table_wrapper{
+    opacity: 0.8;
+}
+#table_wrapper > div:nth-child(1) > div:nth-child(2){
+    visibility: hidden;
+}
+#table_info{
+    color:white;
+}
+#table_length > label > select > option{
+    background-color: navy;
+    color: aliceblue;
+}
+
+
+
