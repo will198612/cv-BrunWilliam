@@ -1,0 +1,108 @@
+@font-face {
+font-family: 'AvenirNext';
+src: url('../polices/Metropolis-Bold.otf') format('truetype');
+}
+html{
+	font-family: 'AvenirNext,Arial,Helvetica,sans-serif;';
+}
+/*header*/
+#login{	float: right;
+	background-color: rgba(250,250,250, .3);
+	border-radius: 25px;
+	width: 250px;
+	margin-top: 25px;
+	margin-right: 0px;
+}
+#inscription{
+	background-color: rgba(250,250,250, .3);
+	border-radius: 25px;
+	width: 450px;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-top: 5px;
+}
+.login, .inscription{
+	color: white;
+}
+#header{
+	min-height: 50px;
+	/* height: 26vw;*/
+	background-image: url("../images/banniere.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+nav{
+	padding: 10px;
+	right: -0em;
+}
+.divNav{
+	background-color: rgba(175,175,175, .3);
+	border-radius: 0px 0px 15px 15px;
+		right: 0%;
+}
+#ELCatalaImg{
+	object-fit: cover;
+}
+@media screen and (min-width: 800px){
+	.divNav{
+		background-color: rgba(175,175,175, .3);
+		border-radius: 0px 0px 0px 15px;
+		right: -3em;
+	}
+	nav{
+		padding: 10px;
+		right: -0em;
+	}
+}
+nav>a{
+	padding: 10px;
+	color: black;
+}
+#Deconteur, #heureOpen{
+	background-color: rgba(175,175,175, .3);
+	padding: 10px;
+	border-radius: 0px 0px 15px 15px;
+}
+#heureOpen{
+	top: -50px; right: 0px;
+}
+#Deconteur{
+}
+/*body*/
+.sectionMain{
+	margin-top: 80px;
+}
+/* artiste */
+.carousel{
+	height: 800px;width: 900px;
+	background: radial-gradient(white, black);
+}
+.CatalaButton{
+	max-height: 700px;
+}
+/*Evenement*/
+.articleEvent{
+	width: 100%;
+	-webkit-box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.75);
+}
+.imgEvent{
+	max-width: 450px;
+	object-fit: contain;
+}
+.separateTitleEvent{
+	width: 50%;
+	border-bottom: 1mm ridge rgba(200, 200, 200, .6);
+}
+/*
+.infoDivEvent{
+}
+.titleEvent{
+
+}
+.pEvent{
+
+}
+*/
