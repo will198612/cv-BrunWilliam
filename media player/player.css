@@ -1,0 +1,58 @@
+html {
+    margin:0;
+    padding:0;
+    height:auto;
+    background-color: brown;
+}
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+.player{
+    margin-top: 30px;
+    color: midnightblue;
+    background-color: goldenrod;
+}
+
+.titleclass{
+    margin-left: 50px;
+    color: darkblue;
+    font-style: italic;
+    text-align: center;
+}
+.search{ 
+    background-color: brown;
+    height: auto;
+}
+.valid{
+    background-color: whitesmoke;
+}
+.black{
+    font-size: 2vh;
+    background-color: brown;
+}
+.red{
+    font-size: 2vh;
+    background-color:brown ;
+}
+.color{
+    background-color: goldenrod;
+    font-family: fantasy;
+    font: 1em sans-serif;
+}
+.card>img{
+    width: 90%;
+}
+.titre{
+    text-align: center;
+    color: darkblue;
+    height: auto;
+    font-style: italic;
+}
+#mediaplayer{
+    visibility: hidden;
+}
+
+
+
