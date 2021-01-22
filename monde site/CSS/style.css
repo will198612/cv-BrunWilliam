@@ -1,0 +1,46 @@
+
+      
+section{
+    opacity: 0.4;
+}
+select{
+    color: rgb(199, 196, 19);
+}
+
+#noms{
+    font-size: large;
+    width: 200px;
+    text-align: center;
+    
+}
+#title_wrapper{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#title_filter{
+    margin-right: 50px;
+    
+}
+#text{
+    display: none;
+}
+    /*DataTables*/
+#tableau{
+   opacity: 0.8;
+}
+
+#tableau_filter{
+    color: red;
+}
+
+#tableau_length{
+    color: red;
+}
+
+#tableau_info{
+    color: red;
+}
+
+.dataTables_paginate.paging_simple_numbers{
+    color: red;
+}
